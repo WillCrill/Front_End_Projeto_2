@@ -1,0 +1,16 @@
+/* Box */
+#form h1:hover {
+    color: black;
+}
+
+.hvr-bk:hover {
+    background-color: rgb(237, 237, 15);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: rgb(237, 237, 15);
+    font-weight: bold;
+    padding: 25px 40px;
+}

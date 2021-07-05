@@ -1,0 +1,96 @@
+/* Geral */
+body { 
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* Header */
+.header {
+    background-image: url("./Imagem1.png");
+    height: 477px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: -200px;
+    
+}
+.segaLogo {
+    position: relative;
+    top: 50px;
+    left: 35%;
+    width: 400px;
+    z-index: 10;
+}
+    
+/* Box */
+#form {
+    padding: 30px;
+    background-color: rgb(19, 87, 158);
+    border-radius: 5px;
+    width: 325px;
+    margin: 20px auto; 
+}
+#form h1 {
+    color: rgb(237, 237, 15);
+    font-family: Impact, sans-serif;
+    text-align: center;   
+}
+
+#form label {
+    color: white;
+}
+input[type="nome"], input[type="email"], input[type="senha"] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(237, 237, 15);
+    margin-bottom: 30px;
+    color: white;
+    outline: none;
+    padding: 10px;
+}
+.btn {
+    padding: 12px 30px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    color: black;
+    background: rgb(237, 237, 15);
+    font-weight: bolder;   
+}
+
+/* Animation Icons */
+.sonic {
+    position: absolute;
+    bottom: -235px;
+    width: 200px;
+}
+.tails {
+    position: absolute;
+    width: 120px;
+}
+.shadow {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 200px;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: black;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.footer img {
+    width: 100px;
+    margin: 20px 46% -30px;
+}
+.footer h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}

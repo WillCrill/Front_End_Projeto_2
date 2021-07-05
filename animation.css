@@ -1,0 +1,63 @@
+/* Animation Icons */
+.sonic {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: sonicAnimation;;
+}
+
+@keyframes sonicAnimation {
+    from{margin-left: -50%;}
+    to{margin-left: 150%;}
+}
+
+.tails {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: tailsAnimation;
+
+}
+@keyframes tailsAnimation {
+    0%{top: 50px; left: -20%;}
+    20%{top: 150px;left: 20%;}
+    60%{top: 150px;left: 50%;}
+    100%{top: 300px;left: 110%;}
+}
+
+.shadow {
+    animation-duration: 4.8s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-name: shadowAnimation;
+
+}
+@keyframes shadowAnimation {
+    /* from{top: 400px; right: 100px;}
+    to{top: 300px; right: 100px;} */
+    43%{top: 250px; left: 100px;}
+    80%{top: 100px; left: 100px;}
+    100%{top: 100px; left: 100px;}
+}
+
+/* Background */
+.segaLogo {
+    animation-name: segaAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes segaAnimation {
+    0% {filter: brightness(100%);}
+    50%{filter: brightness(250%);}
+    100% {filter: brightness(100%);}
+}
+
+/* Box */
+#form {
+    animation-name: formAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes formAnimation {
+    0% {filter: brightness(100%);}
+    50%{filter: brightness(250%);}
+    100% {filter: brightness(100%);}
+}
